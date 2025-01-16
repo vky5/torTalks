@@ -1,4 +1,4 @@
-package main
+package services
 
 import (
 	"fmt"
@@ -37,8 +37,4 @@ func generateOnionURLs(username string) (string, error) {
 	}
 	println(onionURL)
 	return onionURL, nil
-}
-
-func main(){
-	generateOnionURLs("vky5")
 }
